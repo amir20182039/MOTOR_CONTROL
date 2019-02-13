@@ -1,0 +1,4 @@
+BaudRate=9600
+Speed=50.14492753623189
+Direction=CW
+State=HOLD

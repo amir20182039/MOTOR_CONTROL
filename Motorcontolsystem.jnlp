@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Motorcontolsystem.jnlp">
+  <information>
+    <title>Motorcontolsystem</title>
+    <vendor>WAGDY 8.1</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Motorcontolsystem.jar" size="2408746" download="eager" />
+    <jar href="lib\Medusa-8.0.jar" size="1463851" download="eager" />
+    <jar href="lib\RXTXcomm.jar" size="59464" download="eager" />
+    <jar href="lib\jfoenix-8.0.7.jar" size="2631271" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Motorcontolsystem" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Motorcontrol.Motorsystem"  name="Motorcontolsystem" />
+  <update check="always"/>
+</jnlp>
